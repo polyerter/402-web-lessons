@@ -1,0 +1,27 @@
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-align-char {
+    vertical-align: -2px;
+}
+
+.bg-blue {
+    background-color: #161582;
+}

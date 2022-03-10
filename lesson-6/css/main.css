@@ -1,0 +1,75 @@
+.railway {
+    /* background-color: #edd70c; */
+    width: 350px;
+    padding: 20px;
+  }
+  
+  .bg-form {
+    background-color: #42aa4a;
+  }
+
+  .text-form {
+    color: #42aa4a;
+  }
+
+  .bg-dark {
+    background-color: #222222;
+  }
+
+  .bg-yellow {
+    background-color: #edd70c;
+  }
+
+  .text-yellow {
+    color: #edd70c;
+  }
+
+  .form-title {
+    text-align: center;
+    padding: 5px 0;
+    /* text-transform: uppercase; */
+  }
+
+  .input-block {
+    padding: 15px;
+  }
+
+  .form-input {
+    width: 100%;
+    height: 25px;
+    border: none;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    /* width: 100px; */
+    /* height: 25px; */
+
+    /* background-color:#edd70c; */
+
+    padding: 10px 15px;
+    /* padding: 0 0 0 10px; */
+    /* padding-top: 100px; */
+    /* padding-right: 100px; */
+    /* padding-bottom: 100px; */
+    /* padding-left: 100px; */
+
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .form-footer {
+    margin-top: 25px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
