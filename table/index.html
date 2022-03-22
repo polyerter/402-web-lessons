@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        .d-none {
+            display: none;
+        }
+
+        /* td {
+            vertical-align: top;
+        } */
+
+        .table thead tr:first-child {
+            background-color: rgb(24, 145, 145);
+            color: #fff;
+            text-align: left;
+            height: 50px;
+        }
+
+        /* thead tr:last-child { */
+            /* border-bottom: 3px solid #5d565e; */
+        /* } */
+
+        .table tbody tr:nth-child(2n) { /* even|odd|2n|3n|...*/
+            background-color: beige;
+        }
+        
+        .table tbody tr {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" class="d-none">
+        <thead>
+            <tr>
+                <th colspan="2" align="left">Title 1</th>
+                <!-- <th width="250">Title 2</th> -->
+                <th width="250">Title 3</th>
+                <th width="250">Title 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                <!-- <td>Accusantium suscipit iste nesciunt aliquid nam itaque,
+                    totam id culpa enim alias dolorem possimus, optio temporibus
+                     aperiam vitae expedita veritatis. Doloribus, expedita?</td> -->
+                <td colspan="2">Accusantium suscipit iste nesciunt aliquid nam itaque,
+                    totam id culpa enim alias dolorem possimus, optio temporibus
+                     aperiam vitae expedita veritatis. Doloribus, expedita?</td>
+                <td>Accusantium suscipit iste nesciunt aliquid nam itaque,
+                    totam id culpa enim alias dolorem possimus, optio temporibus
+                     aperiam vitae expedita veritatis. Doloribus, expedita?</td>
+            </tr>
+            <tr>
+                <td>Сумма</td>
+                <td colspan="3">
+
+                    123123
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="../index.html">Главная</a>
+        </li>
+        <li>
+            <a href="../lesson-6/index.html">Lesson 6</a>
+        </li>
+    </ul>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="3">Холодные закуски</th>
+            </tr>
+            <tr>
+                <th width="350">Наименование</th>
+                <th width="50">Выход, гр.</th>
+                <th width="50">Цена, руб.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Expedita veritatis</td>
+                <td>250</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>Nesciunt</td>
+                <td>450</td>
+                <td>256</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <td>simply dummy text</td>
+                <td>250</td>
+                <td>456</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
