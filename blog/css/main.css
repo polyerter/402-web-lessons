@@ -29,3 +29,72 @@
 .p-5 {
     padding: 3rem;
 }
+
+
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 1.5rem;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
+
+.mt-4 {
+    margin-top: .5rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+
+.bg-light {
+    background-color: rgb(248,249,250);
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+}
+
+.collapse {
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: rgba(0,0,0,0.55);
+}
+
+.nav-link:first-child {
+    /* padding: 0.5rem 1rem 0.5rem 0; */
+}
+
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
