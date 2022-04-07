@@ -129,3 +129,42 @@ article img {
 .post-meta span {
     font-style: italic;
 }
+
+.paginate {
+    display: flex;
+    list-style: none;
+}
+
+.paginate-item {
+    border: 1px solid #3F78D4;
+    margin: 2px;
+
+    background-color: #3F78D4;
+
+    transition: 0.2s;
+}
+
+.paginate-item a {
+    padding: 0.75rem;
+}
+
+.paginate a, .paginate a:visited {
+    color: #fff;
+}
+
+.paginate a {
+    text-decoration: none;
+}
+
+.paginate-item:hover {
+    background-color: #fff;
+    /* border-color: #003fa3; */
+}
+
+.paginate-item:hover a {
+    color: #3F78D4;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
