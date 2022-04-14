@@ -5,6 +5,18 @@
     <title>Bootstrap</title>
     
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+	<style>
+		.border-custom {
+			border-color: #5b08c7!important;
+		}
+		
+		.border-custom1 {
+			border-color: #24b611!important;
+		}
+		
+	</style>
+
   </head>
   <body>
     
@@ -29,18 +41,61 @@
 		    	</div>
 		    </div>
 		    
-		    <div class="row">
-				<div class="col"></div>
-				<div class="col"></div>
+		    <div class="row justify-content-end" style="height: 500px;">
+				<div class="col align-self-start d-none">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto animi cumque tempora accusantium delectus ipsum nihil mollitia autem deleniti at nobis nulla labore, eius facilis vel quaerat, nostrum temporibus.
+					</p>
+				</div>
+				<div class="col-6 align-self-center">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto animi cumque tempora accusantium delectus ipsum nihil mollitia autem deleniti at nobis nulla labore, eius facilis vel quaerat, nostrum temporibus.
+					</p>
+				</div>
 
-				<div class="col-4 align-self-end bg-danger">
+				<div class="col align-self-end bg-danger d-none">
 					<p>
 		    			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum mollitia maxime voluptatibus quam doloremque consectetur nisi, fugit eveniet corporis est sed vel voluptatem quos eligendi, magni neque laboriosam excepturi saepe. 
 		    		</p>
 				</div>
 		    </div>
+
+			<div class="row">
+				<div class="col-2 offset-lg-10 offset-md-6 offset-2 bg-primary">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						 Voluptate soluta nobis quisquam numquam minus eos vero, 
+						 aspernatur sapiente repellendus odit animi enim! In amet 
+						 omnis odit eum esse fugiat id.
+					</p>
+				</div>
+			</div>
+
+			<div class="row my-5">
+				<div class="col-3 bg-dark text-white me-5 px-4 border border-5 border-danger">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque enim eligendi tempore ea laboriosam magnam impedit reprehenderit optio exercitationem corrupti laborum molestiae nihil ducimus accusantium, natus sapiente in voluptatum.
+					</p>
+				</div>
+				<div class="col-3 bg-dark text-white mx-5 py-4 rounded rounded-1">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque enim eligendi tempore ea laboriosam magnam impedit reprehenderit optio exercitationem corrupti laborum molestiae nihil ducimus accusantium, natus sapiente in voluptatum.
+					</p>
+				</div>
+				<div class="col-3 bg-dark text-white p-4 border border-5 border-custom">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque enim eligendi tempore ea laboriosam magnam impedit reprehenderit optio exercitationem corrupti laborum molestiae nihil ducimus accusantium, natus sapiente in voluptatum.
+					</p>
+				</div>
+				<div class="col-3 bg-dark text-white d-none">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque enim eligendi tempore ea laboriosam magnam impedit reprehenderit optio exercitationem corrupti laborum molestiae nihil ducimus accusantium, natus sapiente in voluptatum.
+					</p>
+				</div>
+			</div>
     </div>
-    
-  </body>
+
+	
+
   </body>
 </html>
